@@ -1,0 +1,37 @@
+# Git version control files
+.git
+.gitignore
+
+# Virtual environment folders
+venv/
+.venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# IDE and editor configuration
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Local environment variables (should use Kubernetes Secrets instead)
+.env
+
+# Testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Build and distribution artifacts
+dist/
+build/
+*.egg-info/
+
+# The dockerignore file itself
+.dockerignore
+Dockerfile
